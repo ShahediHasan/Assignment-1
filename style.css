@@ -1,23 +1,21 @@
 body{
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', calibri;
 }
 
 section{
-    height: 500px;
-    padding-bottom: 20px;
     display: flex;
+    margin-bottom: 100px;
 }
 
 .top1{
-    background-image: url("images/top-banner.png");
+    background-image: url("images/shapes/shape-6.png");
     background-repeat: no-repeat;
 }
 
 .half-width{
     width:40%;
-    float: left;
-    margin-left: 5%;
+    margin-left: 5px;
     padding-left: 2%;
 }
 
@@ -69,8 +67,15 @@ footer p{
     text-align: center;
 }
 
+img {
+    border-radius: 20%;
+    
+    object-fit:contain;
+    width:500px;
+    height:300px;
+    border: solid 1px #CCC";
 
-
+  }
 
 
 
@@ -79,7 +84,7 @@ footer p{
 
 .column {
   float: right;
-  width: 30.33%;
+  width: 33.33%;
   padding-top: 80px;
   height: 500px;
   background-size: 40px;
