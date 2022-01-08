@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin: 5%;
     font-family: 'Poppins', calibri;
 }
 
@@ -45,56 +45,52 @@ p{
 }
 
 
-
-.top2{
-    background-image: url("images/illustrators/illustrator-1.png");
+.top3{
+    background-image: url("images/shapes/shape-1.png");
     background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: left;
 }
+
+.top4{
+    background-image: url("images/shapes/shape-5.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
+}
+
+.top5{
+    background-image: url("images/shapes/shape-7.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: left;
+}
+
 
 .third-width{
     width: 30%;
     padding-left: 10px;
+    background-image: url(//images/illustrators/illustrator-1.png);
+    text-align: justify;
+    margin-right: 5%;
+
+
 }
 
-
-
-
-
-
-
-
-footer p{
-    text-align: center;
-}
 
 img {
+    border-end-end-radius: 30;
     border-radius: 20%;
-    
     object-fit:contain;
-    width:500px;
+    width:800px;
     height:300px;
     border: solid 1px #CCC";
-
   }
 
 
-
-
-/* Create three equal columns that floats next to each other */
-
-.column {
-  float: right;
-  width: 33.33%;
-  padding-top: 80px;
-  height: 500px;
-  background-size: 40px;
-  background-repeat: no-repeat;
-}
-
-/* Clear floats after the columns */
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }
